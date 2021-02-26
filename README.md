@@ -1,4 +1,4 @@
-Ofisini Expense App Fetures
+**Ofisini Expense App Module Fetures**
 
 1. Add your expense/income 
 2. View your cash transactions at any time systematically.
