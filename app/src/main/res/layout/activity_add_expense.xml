@@ -24,6 +24,7 @@
             android:layout_height="wrap_content"
             android:hint="Amount"
             android:inputType="number"
+
             android:ems="14"/>
 
     </android.support.design.widget.TextInputLayout>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.shashank.expense">
+    package="com.ofisini.expense">
 
     <application
         android:allowBackup="true"
@@ -9,14 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity
-            android:name="com.shashank.expense.activities.MainActivity"
+            android:name=".activities.AdminActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ExpenseActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
-        <activity android:name="com.shashank.expense.activities.AddExpenseActivity" />
-        <activity android:name="com.shashank.expense.activities.SplashScreen"
-            android:theme="@style/SplashTheme">
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.AddExpenseActivity" />
+        <activity android:name=".activities.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
